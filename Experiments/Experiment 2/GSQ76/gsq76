@@ -1,0 +1,5 @@
+https://www.codechef.com/learn/course/sql-intermediate/SQ00BS06/problems/GSQ76
+
+select f_name from fruit
+INTERSECT
+select inv_name from inventory
