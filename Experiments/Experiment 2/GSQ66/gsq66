@@ -1,0 +1,5 @@
+https://www.codechef.com/learn/course/sql-intermediate/SQ00BS02/problems/GSQ66
+
+Select * from Arts
+union
+Select * from Science
