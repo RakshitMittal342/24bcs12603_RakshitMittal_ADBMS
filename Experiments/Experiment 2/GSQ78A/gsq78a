@@ -1,0 +1,5 @@
+https://www.codechef.com/learn/course/sql-intermediate/SQ00BS07/problems/GSQ78A
+
+Select emp_name from employee 
+union all
+Select emp_name from pt_employee
