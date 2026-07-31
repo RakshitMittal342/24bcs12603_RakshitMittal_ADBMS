@@ -1,0 +1,17 @@
+-- 1. Customers and Orders (INNER JOIN)
+-- Retrieves customer names and order dates for customers who have placed orders
+SELECT c.customer_name, o.order_date
+FROM customers c
+INNER JOIN orders o ON c.customer_id = o.customer_id;
+
+-- 2. All Customers and Their Orders (LEFT JOIN)
+-- Retrieves all customers and their ordered products, including customers with no orders
+SELECT c.customer_name, o.product_name
+FROM customers c
+LEFT JOIN orders o ON c.customer_id = o.customer_id;
+
+-- 3. Find Products and Their Orders (INNER JOIN)
+-- Displays product names and order dates for products that have been ordered
+SELECT p.product_name, o.order_date
+FROM products p
+INNER JOIN orders o ON p.product_name = o.product_name;
